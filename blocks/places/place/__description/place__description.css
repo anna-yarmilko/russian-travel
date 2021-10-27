@@ -1,0 +1,10 @@
+.place__description {
+    padding: 0 16px 0;
+}
+
+@media screen and (min-width: 768px) {
+    .place__description {
+        grid-area: place__description;
+        padding: 0;
+    } 
+}
