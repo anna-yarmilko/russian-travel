@@ -1,9 +1,16 @@
 .cover__text {
-    height: 100%;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     text-decoration: none;
+    box-sizing: border-box;
+    grid-column: 1 / -1;
+    grid-row: 1 / -1;
+    background-color: rgba(42, 44, 47, .3);
+    transition: background-color 0.4s ease-in-out;
+}
+
+.cover__text:hover {
+    background-color: rgba(42, 44, 47, .8);
 }

@@ -6,20 +6,21 @@
     max-width: 288px;
     text-align: center;
     color: #FFFFFF;
-    margin: 0;
-    padding: 0 16px 40px;
+    margin: 0 16px 40px;
+    padding: 0;
 }
 
 @media screen and (min-width: 768px) {
     .lead__subtitle {
         max-width: 640px;
-        padding: 0 0 56px;
+        margin: 0 0 56px;
         font-size: 30px;
+        line-height: 1.2;
     } 
 }
 
 @media screen and (min-width: 1280px) {
     .lead__subtitle {
-        padding: 0 0 64px;
+        margin: 0 0 64px;
     } 
 }
